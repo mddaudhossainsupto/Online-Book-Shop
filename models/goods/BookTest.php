@@ -15,7 +15,7 @@ class BookTest
 
     public function testBuy()
     {
-        $b=new Book(125412,'ahmed kh twfiq',65465465454,70,55,'  ','a book',100,100);
+        $b=new Book(125412,'dhsupto',65465465454,70,55,'  ','a book',100,100);
         $b->buy(20);
         echo"the quantity is". $b->getQuantity()."<br/>";
         echo "the actual quantity is ".$b->getActualQuantity();
@@ -28,7 +28,7 @@ class BookTest
 
     public function testDamageAllData()
     {
-        $b=new Book(125412,'ahmed kh twfiq',65465465454,70,55,'  ','a book',100,100);
+        $b=new Book(125412,'dhsupto',65465465454,70,55,'  ','a book',100,100);
         $c=$b;
         $b->damageAllData();
         echo $c->getId();
