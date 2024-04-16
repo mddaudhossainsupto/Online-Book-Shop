@@ -19,9 +19,9 @@ class OrdersTest
         $b3=new Book(44,'a3',4556,150,170,'k','jn',160,160);
 
         $a=new Address('egypt','cairo','sww','45j');
-        $c1=new Customers('ahmed muhammed',$a,'engam','045454','45564');
+        $c1=new Customers('sajid muhammed',$a,'engam','045454','45564');
         $o1=new Orders($c1,null);
-        $c2=new Customers('ahmed muhammed',$a,'engam','045454','45564');
+        $c2=new Customers('pralay muhammed',$a,'engam','045454','45564');
 
         $o1->addOrderDetails($b1,20);
         $o1->addOrderDetails($b1,30);
